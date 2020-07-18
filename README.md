@@ -16,8 +16,8 @@
   - [Contribute](#Contribute)
 
  ## Links
-  - (https://jmeggles.github.io/nameofproject/)
-  - (https://github.com/jmeggles/nameofproject)
+  - (https://jmeggles.github.io/13_Eat_Da_Burger/)
+  - (https://github.com/jmeggles/13_Eat_Da_Burger)
 
  ## Screenshots_and_GIFs 
   - ![Short vid of deployed project](https://media.giphy.com/media)
@@ -27,7 +27,7 @@
   - ![Screenshot of deployed project](./assets/images/screenshot4.png)
   
   ## Motivation
-  This project was built for the burger fanatic!  It's a fun silly logger to showcase MVC with MySql, Node.Js, Handlebars, using DBeaver, Javascript, and CSS.
+  It's a fun logger to showcase MVC with MySql, Node.Js, Handlebars, using DBeaver, Javascript, and CSS.
 
   ## Installation 
   ![npm](https://img.shields.io/npm/v/npm?color=pink&style=plastic) 
@@ -43,10 +43,18 @@
     - CSS
 
   ## How_to_use
-  Clone repo from guthub and intall node modules, npm packages express, mysql, and express-handlebars inside project folder. Open DBeaver and use along with code to allow app to function proeperly and save information to the database for storage. Run node server.js in terminal to activate project. Follow prompts to view burger info.
+  Clone repo from guthub and intall node modules, npm packages express, mysql, and express-handlebars inside project folder. Open DBeaver and use along with code to allow app to function proeperly and save information to the database for storage. Run node server.js in terminal to activate project. 
+
+  Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
+
+  Whenever a user submits a burger's name, your app will display the burger on the left side of the page -- waiting to be devoured.
+
+  Each burger on the plate also has an `Eat Me!!` button. When the user clicks it, the burger will move to the right side of the page.
+
+  Your app will store every burger in a database, whether devoured or not.
 
   ## Benefit
-  Anyone can benefit from this project. It can be used as a game just for fun or add it your website to save customer info into a database for future reference.  
+  Anyone can benefit from this project. It can be used to store order information for restaurants and stores or simply as a game just for fun.  
 
   ## License 
   ![APM](https://img.shields.io/apm/l/npm?color=pink&style=plastic)
