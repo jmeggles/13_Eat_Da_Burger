@@ -1,67 +1,75 @@
 {{!-- main page title --}}
 <div class="container">
-  <div class ="row">
+  <div class="row">
     <div class="col-12">
       <center>
         <img src="./assets/images/cute-buns.png" width="25%">
-        <h1>Welcome!</h1>  
-        <h1>Thanks for checking out my <i>Cute Buns!</i></h1> 
-        <h2><i>A burger joint.</i></h2>
+        <h1>Welcome!</h1>
+        <h1>Thanks for checking out my <i><u>Cute Buns!</u></i></h1>
+        <h2><i>A classy burger joint.</i></h2>
       </center>
     </div>
   </div>
 </div>
 
-{{!-- main page center container--}}
-<div class ="container">
-  {{!-- left column --}}
-  <div class="col-sm-12 col-md-6">
-    <center>
-      <h3>On the Plate!</h3>
-    </center>
-    <ul id="burger-text">
-      {{#each burgers}}
-        {{#unless devoured}}
-          {{> burgers/burger-block devour=true}}
-        {{/unless}}
-      {{/each}}
-    </ul>
-  </div>  
 
-  {{!-- right column --}}
-  <div class="col-sm-12 col-md-6">
-    <center>
-      <h3>Burgers Devoured!!</h3>
-    </center>
-    <ul id="burger-text">
-      {{#each burgers}}
+
+{{!-- main page center container--}}
+{{!-- <div class ="container"> --}}
+{{!-- left column --}}
+{{!-- main page center container--}}
+
+{{!-- left column --}}
+<div class="container">
+  <div class="row">
+
+    {{!-- left column --}}
+    <div class="col-sm-12 col-md-6" id="left plate">
+      <center>
+        <h3>On the Plate!</h3>
+      </center>
+      <ul id="burger-input">
+        {{#each burgers}}
+        {{#unless devoured}}
+        {{> burgers/burger-block devour=true}}
+        {{/unless}}
+        {{/each}}
+      </ul>
+    </div>
+
+    {{!-- right column --}}
+    <div class="col-sm-12 col-md-6" id="right-plate">
+      <center>
+        <h3>Burgers Devoured!!</h3>
+      </center>
+      <ul id="burger-input">
+        {{#each burgers}}
         {{#if devoured}}
-          {{> burgers/burger-block devour=false}}
+        {{> burgers/burger-block devour=false}}
         {{/if}}
-      {{/each}}
-    </ul>
+        {{/each}}
+      </ul>
+    </div>
+
   </div>
 </div>
+<hr>
+<div class="container" style="center" id="burger-input">
+{{!-- burger form at bottom of page --}}
+<h2>What do you like between <i>YOUR</i> buns? Add a favorite burger here! </h2>
+  <form class="create-form">
+    
+    <div class="form-group">
+      <label for="burg">Burger Name:</label>
+      <input type="text" id="burg" name="burger_name">
+    </div>
 
+    <div class="form-group">
+      <label for="devoured">This burger...?</label><br>
+      <input type="radio" name="devoured" value="1" checked> Was Devoured<br>
+      <input type="radio" name="devoured" value="0"> Goes on the plate!
+    </div>
 
-
-
-
-
-
-<h2>What do you like between <i>YOUR</i>  buns?  Add a burger here! </h2>
-<form class="create-form">
-
-  <div class="form-group">
-    <label for="burg">Burger Name:</label>
-    <input type="text" id="burg" name="burger_name">
-  </div>
-
-  <div class="form-group">
-    <label for="devoured">This burger...?</label><br>
-    <input type="radio" name="devoured" value="1" checked> Was Devoured<br>
-    <input type="radio" name="devoured" value="0"> Goes on the plate!
-  </div>
-
-  <button type="submit">Add Burger</button>
-</form>
+    <button type="submit">Add Burger</button>
+  </form>
+</div>

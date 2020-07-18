@@ -21,17 +21,26 @@
 /* ------------------------------------ GENERAL */
 
 body {
-  background: #D3D9C3;
+  background: #d6dde1;
 }
 .title-image{
   text-align: center;
   margin-top: 20px;
 }
-#burger-text {
+
+#left-plate {
+  text-align: left;
+}
+
+#right-plate {
+  text-align: right;
+}
+#burger-input {
   text-align: center;
-  font-family: 'Raleway','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Quicksand';
   font-size: 14pt;
   margin-top: 1rem;
+  padding-bottom: 20%;
 }
 ul{
   list-style-type: none;
