@@ -1,19 +1,37 @@
 {
-  "name": "mvc_design",
+  "name": "13_eat_da_burger",
   "version": "1.0.0",
-  "description": "",
+  "description": "Eat Da Burger!",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Jody Eggleston",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.16.3",
-    "express-handlebars": "^3.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
     "mysql": "^2.18.1"
   },
   "devDependencies": {
     "handlebars-helper-css": "^0.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmeggles/13_Eat_Da_Burger.git"
+  },
+  "keywords": [
+    "burger",
+    "eat",
+    "da",
+    "mvc",
+    "handlebars",
+    "express",
+    "mysql"
+  ],
+  "bugs": {
+    "url": "https://github.com/jmeggles/13_Eat_Da_Burger/issues"
+  },
+  "homepage": "https://github.com/jmeggles/13_Eat_Da_Burger#readme"
 }
