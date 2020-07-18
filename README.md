@@ -27,29 +27,38 @@
   - ![Screenshot of deployed project](./assets/images/screenshot4.png)
   
   ## Motivation
-  Why was this project started.
+  This project was built for the burger fanatic!  It's a fun silly logger to showcase MVC with MySql, Node.Js, Handlebars, using DBeaver, Javascript, and CSS.
 
   ## Installation 
-  ![npm](https://img.shields.io/npm/v/npm?color=pink&style=plastic) ![npm](https://img.shields.io/npm/v/inquirer?color=pink&label=inquirer&style=plastic)
-  Any install info?
+  ![npm](https://img.shields.io/npm/v/npm?color=pink&style=plastic) 
+
+  *Technology used*
+    - node.js
+    - Heroku
+    - express (npm package)
+    - express-handlebars (npm package)
+    - Mysql (npm package)
+    - DBeaver
+    - Javascipt
+    - CSS
 
   ## How_to_use
-
+  Clone repo from guthub and intall node modules, npm packages express, mysql, and express-handlebars inside project folder. Open DBeaver and use along with code to allow app to function proeperly and save information to the database for storage. Run node server.js in terminal to activate project. Follow prompts to view burger info.
 
   ## Benefit
-  
+  Anyone can benefit from this project. It can be used as a game just for fun or add it your website to save customer info into a database for future reference.  
 
   ## License 
   ![APM](https://img.shields.io/apm/l/npm?color=pink&style=plastic)
   MIT
 
   ## Credits
-  John Dinsmore, Jorge Alvarez, Ben Benson WebDev Tutoring, W3 Schools (https://www.w3schools.com/js/), Mozilla (https://developer.mozilla.org/en-US/).
+  John Dinsmore, Jorge Alvarez, Ben Benson with WebDev Tutoring.
 
   ## Tests
- 
+  Testing was not done prior to start of project. However, DBeaver, console.log, and node server.js were used as each line of code was being built to ensure quaility along the process.
 
   ## Contribute
-  Yes. Commit or comment to the project in github.
+  Commit or comment to the project in github.
 
   © Copyright 2020
