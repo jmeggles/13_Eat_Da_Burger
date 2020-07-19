@@ -22,22 +22,23 @@
 
 body {
   background: #d6dde1;
+  font-family: "Quicksand";
 }
 .title-image{
   text-align: center;
   margin-top: 20px;
 }
 
-#left-plate {
+#left-burger-column {
   text-align: left;
 }
 
-#right-plate {
+#right-buger-column {
   text-align: right;
 }
 #burger-input {
   text-align: center;
-  font-family: 'Quicksand';
+  /* font-family: 'Quicksand'; */
   font-size: 14pt;
   margin-top: 1rem;
   padding-bottom: 20%;
