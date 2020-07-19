@@ -20,11 +20,11 @@
   - (https://github.com/jmeggles/13_Eat_Da_Burger)
 
  ## Screenshots_and_GIFs 
-  - ![Short vid of deployed project](https://media.giphy.com/media/ej2J0P9xfbppkHqDIw/giphy.gif)
-  - ![Screenshot of deployed project](./assets/images/screenshot1.png)  
-  - ![Screenshot of deployed project](./assets/images/screenshot2.png)
-  - ![Screenshot of deployed project](./assets/images/screenshot3.png)  
-  - ![Screenshot of deployed project](./assets/images/screenshot4.png)
+  - ![Short vid of deployed burger project](https://media.giphy.com/media/ej2J0P9xfbppkHqDIw/giphy.gif)
+  - ![Screenshot of deployed burger project](./public/assets/images/screenshot1.png)  
+  - ![Screenshot of deployed burger project](./assets/images/screenshot2.png)
+  - ![Screenshot of deployed burger project](./assets/images/screenshot3.png)  
+  - ![Screenshot of deployed burger project](./assets/images/screenshot4.png)
   
   ## Motivation
   It's a fun logger to showcase MVC with MySql, Node.Js, Handlebars, using DBeaver, Javascript, and CSS.
@@ -43,7 +43,7 @@
     - CSS
 
   ## How_to_use
-    Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
+  Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
 
   Clone repo from guthub and intall node modules, npm packages express, mysql, and express-handlebars inside project folder. Open DBeaver and use along with code to allow app to function proeperly and save information to the database for storage. Run node server.js in terminal to activate project. 
 
