@@ -1,5 +1,5 @@
 # Project Name ![GitHub deployments](https://img.shields.io/github/deployments/badges/shields/shields-staging?color=lightgrey)
-  Eat Da Burger!
+  Eat Da Burger!  *aka Cute Buns! A classy burger joint.*
 
   ## Overview 
   A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM.
@@ -20,7 +20,7 @@
   - (https://github.com/jmeggles/13_Eat_Da_Burger)
 
  ## Screenshots_and_GIFs 
-  - ![Short vid of deployed project](https://media.giphy.com/media)
+  - ![Short vid of deployed project](https://media.giphy.com/media/ej2J0P9xfbppkHqDIw/giphy.gif)
   - ![Screenshot of deployed project](./assets/images/screenshot1.png)  
   - ![Screenshot of deployed project](./assets/images/screenshot2.png)
   - ![Screenshot of deployed project](./assets/images/screenshot3.png)  
@@ -43,13 +43,11 @@
     - CSS
 
   ## How_to_use
+    Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
+
   Clone repo from guthub and intall node modules, npm packages express, mysql, and express-handlebars inside project folder. Open DBeaver and use along with code to allow app to function proeperly and save information to the database for storage. Run node server.js in terminal to activate project. 
 
-  Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
-
-  Whenever a user submits a burger's name, your app will display the burger on the left side of the page -- waiting to be devoured.
-
-  Each burger on the plate also has an `Eat Me!!` button. When the user clicks it, the burger will move to the right side of the page.
+  Whenever a user submits a burger's name, your app will display the burger on the left, "On the Plate",  side of the page -- waiting to be devoured.  Each burger on the plate has a hungry-face emoji button ready to devour the burger. When the user clicks it, the burger will move to the right side of the page.  On the right, "Burgers Devoured", side of the page, the user can choose to put the burger back on the plate with the plate and utensils button.  Or if the user doesn't like the burger at all, they can toss it in the trash with the trashcan button on either side of the page. 
 
   Your app will store every burger in a database, whether devoured or not.
 
@@ -69,4 +67,4 @@
   ## Contribute
   Commit or comment to the project in github.
 
-  © Copyright 2020
+  © Copyright 2020 JodesCodes
