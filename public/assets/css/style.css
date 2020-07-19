@@ -24,6 +24,7 @@ body {
   background: #d6dde1;
   font-family: "Quicksand";
 }
+
 .title-image{
   text-align: center;
   margin-top: 20px;
@@ -36,21 +37,25 @@ body {
 #right-buger-column {
   text-align: right;
 }
+
 #burger-input {
   text-align: center;
-  /* font-family: 'Quicksand'; */
   font-size: 14pt;
   margin-top: 1rem;
-  padding-bottom: 20%;
+  padding-bottom: 2%;
 }
-.form-control {
-  
-}
-ul{
+
+ul {
   list-style-type: none;
 }
+
 li {
   padding: 5px;
   margin: 5px;
   background: #d6dde1;
+}
+
+.footer {
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
