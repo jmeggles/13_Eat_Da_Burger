@@ -22,9 +22,9 @@
  ## Screenshots_and_GIFs 
   - ![Short vid of deployed burger project](https://media.giphy.com/media/ej2J0P9xfbppkHqDIw/giphy.gif)
   - ![Screenshot of deployed burger project](./public/assets/images/screenshot1.png)  
-  - ![Screenshot of deployed burger project](./assets/images/screenshot2.png)
-  - ![Screenshot of deployed burger project](./assets/images/screenshot3.png)  
-  - ![Screenshot of deployed burger project](./assets/images/screenshot4.png)
+  - ![Screenshot of deployed burger project](./public/assets/images/screenshot2.png)
+  - ![Screenshot of deployed burger project](./public/assets/images/screenshot3.png)  
+  - ![Screenshot of deployed burger project](./public/assets/images/screenshot4.png)
   
   ## Motivation
   It's a fun logger to showcase MVC with MySql, Node.Js, Handlebars, using DBeaver, Javascript, and CSS.
