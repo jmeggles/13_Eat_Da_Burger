@@ -15,15 +15,6 @@ if (process.env.JAWSDB_URL) {
   });
 }
 
-// removing this section to redirect through sql pro for heroku
-// connection.connect(function(err) {
-//   if (err) {
-//     console.error("error connecting: " + err.stack);
-//     return;
-//   }
-//   console.log("connected as id " + connection.threadId);
-// });
-
 // make connection with database
 connection.connect();
 
