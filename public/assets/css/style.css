@@ -7,6 +7,10 @@ body {
   margin-top: 20px;
 }
 
+#mid-container {
+  padding-bottom: 5%;
+}
+
 #left-burger-column {
   text-align: left;
 }
@@ -17,7 +21,7 @@ body {
 
 #burger-input {
   text-align: center;
-  font-size: 14pt;
+  font-size: 20pt;
   margin-top: 1rem;
   padding-bottom: 2%;
 }

@@ -1,5 +1,5 @@
 {{!-- main page title --}}
-<div class="container">
+<div class="container" id="mid-container">
   <div class="row">
     <div class="col-12">
       <center>
@@ -28,15 +28,17 @@
     </div>
   </div>
 </div>
-<hr>
+
 {{!-- left column --}}
 <div class="container">
   <div class="row"> 
 		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="left-burger-column"> 
       <center>
-        <h3>On the Plate!</h3>
+        <h2>On the Plate!</h2>
         <br>
-        <h5>(click the hungry face to devour the burger)</h5>
+        <h6><i>(click the hungry face to devour the burger)
+          <br>(or the trash to throw the burger away)</i>
+        </h6>
       </center>
       <ul id="burger-input">
         {{#each burgers}}
@@ -49,9 +51,11 @@
     {{!-- right column --}}
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="right-burger-column">
       <center>
-        <h3>Burgers Devoured!!</h3>
+        <h2>Burgers Devoured!!</h2>
         <br>
-        <h5>(click the plate to put the burger back on the plate)</h5>
+        <h6><i>(click the plate to order the same burger)
+          <br>(or the trash to throw the burger away)</i>
+        </h6>
       </center>
       <ul id="burger-input">
         {{#each burgers}}
