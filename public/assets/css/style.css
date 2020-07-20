@@ -40,3 +40,8 @@ li {
   padding-top: 5%;
   padding-bottom: 5%;
 }
+
+.change-devour, .delete-burger {
+  border-color: #d6dde1;
+  box-shadow: aqua;
+}
