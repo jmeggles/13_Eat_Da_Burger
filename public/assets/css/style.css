@@ -41,7 +41,12 @@ li {
   padding-bottom: 5%;
 }
 
-.change-devour, .delete-burger {
+/* .change-devour:hover, .delete-burger:hover {
   border-color: #d6dde1;
-  box-shadow: aqua;
+  background-color:  aqua;
+} */
+
+button:hover {
+  border-color: #d6dde1;
+  background-color:  aqua;
 }
