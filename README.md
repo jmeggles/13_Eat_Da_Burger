@@ -1,4 +1,4 @@
-# Project Name ![GitHub deployments](https://img.shields.io/github/deployments/badges/shields/shields-staging?color=pink) [![Build Status](https://travis-ci.org/jmeggles/13_Eat_Da_Burger.svg?branch=master)
+# Project Name ![GitHub deployments](https://img.shields.io/github/deployments/badges/shields/shields-staging?color=pink) 
   Eat Da Burger!  *aka Cute Buns! A classy burger joint.*
 
   ## Overview 
