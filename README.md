@@ -28,7 +28,7 @@
   - ![Screenshot of deployed burger project](./public/assets/images/screenshot4.png)
   
   ## Motivation
-  It's a fun logger to showcase MVC with MySql, Node.Js, Handlebars, using DBeaver, Javascript, and CSS.
+  It's a fun logger to showcase MVC with MySql, Node.Js, Handlebars, using DBeaver, Javascript, and CSS. 
 
   ## Installation 
   ![npm](https://img.shields.io/npm/v/npm?color=pink&style=plastic) 
