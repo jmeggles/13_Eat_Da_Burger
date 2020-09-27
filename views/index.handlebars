@@ -3,24 +3,34 @@
   <div class="row">
     <div class="col-12">
       <center>
-        <img src="./assets/images/cute-buns.png" alt="cartoon cheeseburger with the words cute buns" width="25%" id="title-image">
         <h1>Welcome!</h1>
         <br>
-        <h1>Thanks for checking out my <b><u>Cute Buns!</u></b></h1>
-        <h4><i> * A classy burger joint * </i></h4>
+        <div class="image-bg">
+          <img src="./assets/images/burger-lady.jpg"
+            alt="womand holding a burger giving a thumbs up" width="70%"
+            id="title-image">
+          <h2>Thanks for checking out my <b><u>Cute Buns!</u></b></h2>
+          <h4><i> * A classy burger joint * </i></h4>
+        </div>
+      </center>
+      <center>
         <br>
         <hr>
         {{!-- burger form to add burger to the list --}}
-        <h2> What do you like between <i>YOUR </i>  buns? </h2> 
+        <h2> What do you like between <i>YOUR </i> buns? </h2>
         <h2> Add a favorite burger here! </h2>
         <form class="create-form col-xs-12 col-sm-12 col-md-6 col-lg-6">
           <div class="form-group">
-            <input class="form-control" type="text" placeholder="Type burger name here...."id="burg" name="burger_name" required>
+            <input class="form-control" type="text"
+              placeholder="Type burger name here...." id="burg"
+              name="burger_name" required>
           </div>
           <div class="form-group">
             {{!-- <label for="devoured"></label><br> --}}
-            <input type="radio" name="devoured" value="0"> Put it on the plate! <br>
-            <input type="radio" name="devoured" value="1" checked> I devoured this! 
+            <input type="radio" name="devoured" value="0"> Put it on the
+            plate! <br>
+            <input type="radio" name="devoured" value="1" checked> I devoured
+            this!
           </div>
           <button type="submit">Add Burger</button>
         </form>
@@ -31,13 +41,13 @@
 
 {{!-- left column --}}
 <div class="container">
-  <div class="row"> 
-		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="left-burger-column"> 
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="left-burger-column">
       <center>
         <h2>On the Plate!</h2>
         <br>
         <h6><i>(click the hungry face to devour the burger)
-          <br>(or the trash to throw the burger away)</i>
+            <br>(or the trash to throw the burger away)</i>
         </h6>
       </center>
       <ul id="burger-input">
@@ -54,7 +64,7 @@
         <h2>Burgers Devoured!!</h2>
         <br>
         <h6><i>(click the chef to put the burger on the plate)
-          <br>(or the trash to throw the burger away)</i>
+            <br>(or the trash to throw the burger away)</i>
         </h6>
       </center>
       <ul id="burger-input">
@@ -69,7 +79,19 @@
 </div>
 <footer>
   <center>
-    <p class="footer"> © Copyright 2020 <i>JodesCodes</i> </p>
+    <p className="footer">
+      Copyright ©2020 |
+      <span><span role="img" aria-label="sparkle"> ✨ </span> <a
+          class="signature" target="_blank"
+          href="https://jmeggles.github.io/Portfolio">Jody Eggleston</a>
+        <span>
+          <a target="_blank" href="https://www.linkedin.com/in/jody-eggleston">
+            <i class="fab fa-linkedin-in fa-icon"></i>
+          </a>
+        </span>
+        <span> <a target="_blank" href="https://github.com/jmeggles">
+            <i class="fab fa-github fa-icon"></i>
+          </a></span><span role="img" aria-label="sparkle"> ✨ </span>
+    </p>
   </center>
 </footer>
-

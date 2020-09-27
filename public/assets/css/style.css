@@ -3,10 +3,24 @@ body {
   font-family: "Quicksand";
 }
 
-#title-image {
-  margin-top: 20px;
+/* ====================== */
+/* Welcome header and image */
+/* ====================== */
+h1 {
+  font-weight: bold;
+  padding-top: 30px;
 }
 
+.image-bg {
+  background-color: white;
+}
+
+h4 {
+  padding-bottom: 20px;
+}
+/* ====================== */
+/* Menu */
+/* ====================== */
 #mid-container {
   padding-bottom: 5%;
 }
@@ -36,12 +50,39 @@ li {
   background: #d6dde1;
 }
 
-.footer {
-  padding-top: 5%;
-  padding-bottom: 5%;
+h6 {
+  color: gray;
 }
 
 button:hover {
-  border-color: #d6dde1;
-  background-color:  aqua;
+  transform: scale(1.5); 
+}
+
+/* ====================== */
+/* Footer */
+/* ====================== */
+footer {
+  text-align: center;
+  background-color: #676c6d7a;
+  margin-top: 20px;
+}
+
+span {
+  font-family: "Euphoria Script", cursive;
+}
+
+.fa-icon {
+  color: aqua;
+  padding: 5px;
+}
+.fa-icon:hover {
+  color: deeppink;
+}
+
+.signature {
+  color: aqua;
+  font-size: 25px;
+}
+.signature:hover {
+  color: deeppink;
 }

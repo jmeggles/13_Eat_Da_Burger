@@ -56,16 +56,18 @@
   Anyone can benefit from this project. It can be used to store order information for restaurants and stores or simply as a game just for fun.  
 
   ## License 
-  ![APM](https://img.shields.io/apm/l/npm?color=pink&style=plastic)
-  MIT
+  ![APM](https://img.shields.io/apm/l/npm?color=pink&style=plastic)<br>
+  [MIT License](https://opensource.org/licenses/MIT)
+
+  Copyright © 2020 Jody Eggleston
 
   ## Credits
-  John Dinsmore, Jorge Alvarez, Ben Benson with WebDev Tutoring.
+  Image from (http://www.davescottblog.com/wheres-amelia-islands-best-burger-is-it-main-beachs-putt-putt-t-rays-or/).
 
   ## Tests
   Testing was not done prior to start of project. However, DBeaver, console.log, and node server.js were used as each line of code was being built to ensure quaility along the process.
 
-  ## Contribute
-  Commit or comment to the project in github.
+  ## Contact
 
-  © Copyright 2020 JodesCodes
+  For comments and/or questions, contact Jody Eggleston via
+  [Linkedin](https://www.linkedin.com/in/jody-eggleston/)
