@@ -2,7 +2,7 @@
   Eat Da Burger!  *aka Cute Buns! A classy burger joint.*
 
   ## Overview 
-  A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM.
+  A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM. A simple menu style ordering with a side of humor.  
 
   ## Table of Contents:
   - [Links](#Links)

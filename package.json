@@ -1,5 +1,5 @@
 {
-  "name": "13_eat_da_burger",
+  "name": "eat_da_burger",
   "version": "1.0.0",
   "description": "Eat Da Burger!",
   "main": "server.js",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jmeggles/13_Eat_Da_Burger.git"
+    "url": "git+https://github.com/jmeggles/Eat_Da_Burger.git"
   },
   "keywords": [
     "burger",
@@ -31,7 +31,7 @@
     "mysql"
   ],
   "bugs": {
-    "url": "https://github.com/jmeggles/13_Eat_Da_Burger/issues"
+    "url": "https://github.com/jmeggles/Eat_Da_Burger/issues"
   },
-  "homepage": "https://github.com/jmeggles/13_Eat_Da_Burger#readme"
+  "homepage": "https://github.com/jmeggles/Eat_Da_Burger#readme"
 }
