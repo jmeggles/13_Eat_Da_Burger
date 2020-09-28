@@ -16,9 +16,9 @@
   - [Contribute](#Contribute)
 
  ## Links
-  - (https://eat-da-burger-cute-buns.herokuapp.com/)
-  - (https://jmeggles.github.io/Eat_Da_Burger/)
-  - (https://github.com/jmeggles/Eat_Da_Burger)
+  - [Live on Heroku](https://eat-da-burger-cute-buns.herokuapp.com/)
+  - [GitHub pages readme](https://jmeggles.github.io/Eat_Da_Burger/)
+  - [View the code](https://github.com/jmeggles/Eat_Da_Burger)
 
  ## Screenshots_and_GIFs 
   - ![Short vid of deployed burger project](https://media.giphy.com/media/fWANbKKCJ6SXeJufSl/giphy.gif)
